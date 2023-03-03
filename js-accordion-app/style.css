@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: teal;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+span {
+  display: none;
+  text-align: justify;
+  color: white;
+  background-color: rgb(16, 68, 68);
+  padding: 10px;
+}

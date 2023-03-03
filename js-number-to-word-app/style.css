@@ -1,0 +1,33 @@
+.container {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+}
+form {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+form input {
+  flex: 1;
+  outline: none;
+  margin-left: 10px;
+}
+
+form input,
+form button {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+form button {
+  cursor: pointer;
+}
+
+h1 {
+  margin: 0px;
+  margin-top: 50px;
+}
